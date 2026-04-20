@@ -1,0 +1,13 @@
+button {
+    border-radius: 10px;
+    background-color:cornflowerblue;
+
+}
+
+a {
+    border:none;
+    padding:10px;
+    color:aliceblue;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration:none;
+}

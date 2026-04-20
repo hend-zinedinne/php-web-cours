@@ -1,0 +1,41 @@
+.badge {
+    border-radius:10px;
+    padding:15px;
+    border:none;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:12px;
+    font-weight:bold;
+    display:inline;
+    text-transform:uppercase;
+    box-shadow:0px 0px 10px black;
+}
+
+.badge-success {
+    background-color:greenyellow;
+}
+
+.badge-danger {
+    background-color:tomato;
+}
+
+.quantite {
+    font-weight:bolder;
+}
+
+.stock-ok {
+    color:green;
+}
+
+.stock-danger {
+    color:tomato;
+}
+
+.bouton-commander {
+    border-radius:10px;
+    padding:15px;
+    background-color:dodgerblue;
+    text-decoration:none;
+    font-family:Arial, Helvetica, sans-serif;
+    color:white;
+    font-weight:bold;
+}
