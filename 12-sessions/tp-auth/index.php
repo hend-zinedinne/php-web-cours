@@ -14,12 +14,20 @@ session_start();
 <body>
     <!-- Tester si l'utilisateur est connecté -->
 
-
-
-
     <h1>Accueil du site</h1>
-    <p>Vous n'êtes pas connecté.</p>
-    <p><a href="connexion.php">Se connecter</a></p>
+
+    <?php if (isset($_SESSION["utilisateur"])): ?>
+        <p>Bonjour <?= $_SESSION['utilisateur']['prenom'] ?></p>
+        <p><a href="page-protegee2.php">Accès à mon profil</a></p>
+        <p><a href="page-protegee.php">Accès à mon espace protégé</a></p>
+        <p><a href="deconnexion.php">Se déconnecter</a></p>
+    <?php else: ?>
+        <p>Vous n'êtes pas connecté.</p>
+        <p><a href="connexion.php">Se connecter</a></p>
+    <?php endif; ?>
+
+
+
 </body>
 
 </html>

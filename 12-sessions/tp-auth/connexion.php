@@ -50,8 +50,6 @@ if ($_SERVER['REQUEST_METHOD'] === "POST") {
         // Rediriger l'utilisateur vers une autre page du site
 
         header("Location:index.php");
-    } else {
-        echo "nuh uh";
     }
 }
 ?>

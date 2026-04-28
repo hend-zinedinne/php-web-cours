@@ -5,3 +5,4 @@ exo-promo.php :     SIO-COND-PROM
 exo-login.php :     SIO-COND-LOG
 Cinesio etape 3 : CINESIO-DETAIL
 Cinesio form : CINESIO-FORM;
+Cinesio authentification : CINESIO-AUTH
